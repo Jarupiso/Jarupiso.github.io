@@ -2,7 +2,7 @@ function welcomeMsg() {
     const welcomeMsgEl = document.querySelector("#welcomeMsg");
     let array = 0;
 
-    const msg1 = `<p class="animation mb-0 text-truncate">Salam kenal buat user Malaysia</p>`;
+    const msg1 = `<p class="animation mb-0 text-truncate">Arbi lolok</p>`;
     const msg2 = `<p class="animation mb-0 text-truncate">Jangan lupa follow sosmed gua dibawah ya</p>`;
     const msg3 = `<p class="animation mb-0 text-truncate">Follow ML gw -> 'Stee.'</p>`;
     const msg4 = `<p class="animation mb-0 text-truncate">Semangat GB nya bro</p>`;
@@ -15,7 +15,7 @@ function welcomeMsg() {
     const msg11 = `<p class="animation mb-0 text-truncate">Semangat push ke mitik bro</p>`;
 
     let arrayEl = [msg1, msg2, msg3, msg4, msg5, msg6, msg7, msg8, msg9, msg10, msg11];
-    let arrayMax = 11;
+    let arrayMax = 1;
     setInterval(() => {
         welcomeMsgEl.innerHTML = arrayEl[array];
 
