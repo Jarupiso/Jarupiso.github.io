@@ -15,7 +15,7 @@ function welcomeMsg() {
     const msg11 = `<p class="animation mb-0 text-truncate">Semangat push ke mitik bro</p>`;
 
     let arrayEl = [msg1, msg2, msg3, msg4, msg5, msg6, msg7, msg8, msg9, msg10, msg11];
-    let arrayMax = 1;
+    let arrayMax = 11;
     setInterval(() => {
         welcomeMsgEl.innerHTML = arrayEl[array];
 
